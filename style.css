@@ -1,0 +1,162 @@
+header {
+    padding-top: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1px;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+
+body {
+    padding-top: 5%px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: black;
+}
+
+footer {
+    padding: 3%;
+    padding-left: 47%;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    padding-top: 5px;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 15%;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 40px;
+    padding-left: 1%;
+}
+
+h3 {
+    padding-left: 2%;
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h1, h2, h3, h4, p, span, label {
+    color: white;
+}
+
+label {
+    padding-left: 6%;
+    font-size: 25px;
+}
+
+span {
+    font-size: 25px;
+    padding-left: 2%;
+}
+
+p {
+    font-size: xx-large;
+}
+
+ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50%;
+    padding-right: 6%;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: end;
+    justify-content: space-between;
+    font-size: 28px;
+}
+
+ol {
+    padding-top: 3%;
+    padding-right: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    padding: 5%;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    border:0px;
+}
+
+div {
+    padding-bottom: 2%;
+}
+
+section {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding-left: 10%;
+    justify-content: space-between;
+}
+
+a:hover {
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
